@@ -11,9 +11,9 @@
     "dist": "electron-builder -mw --linux deb",
     "dist:macos": "electron-builder -m",
     "dist:linux": "electron-builder --linux deb",
-    "build:darwin": "electron-packager . TODO! --platform=darwin --arch=x64 --asar --prune=true --icon=build/icon.icns --out=release-builds",
-    "build:win32": "electron-packager . TODO! --platform=win32 --arch=x64 --asar --prune=true --icon=build/icon.ico --out=release-builds",
-    "build:linux": "electron-packager . TODO! --platform=linux --arch=x64 --asar --prune=true --icon=build/icon.png --out=release-builds"
+    "build:darwin": "electron-packager . TODO! --overwrite --platform=darwin --arch=x64 --asar --prune=true --icon=build/icon.icns --ignore=node_modules/electron-* --out=TODO-desktop-release",
+    "build:win32": "electron-packager . TODO! --overwrite --platform=win32 --arch=x64 --asar --prune=true --icon=build/icon.ico --out==TODO-desktop-release --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"TODO!\"",
+    "build:linux": "electron-packager . TODO --overwrite --platform=linux --arch=x64 --asar --prune=true --icon=build/icon.png --out=TODO-desktop-release"
   },
   "author": "David Lu",
   "license": "GPL-3.0",
