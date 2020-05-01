@@ -1,0 +1,14 @@
+/*!
+ * # Variables
+ *//*!
+ * # Mixins
+ *//*!
+ * # Variables
+ */#todo-title[data-v-c80da55e]{color:#42b983;font-size:60px;font-weight:700;margin-bottom:0}.todo-header #todo-header-progress[data-v-c80da55e]{text-align:left;vertical-align:middle}.todo-header #todo-header-progress #todo-header-remain[data-v-c80da55e]{font-size:15px;height:28px;margin-left:5px;vertical-align:middle}.todo-header #todo-header-tabs[data-v-c80da55e]{text-align:right}.todo-item.todo-item-done[data-v-c80da55e]{text-decoration:line-through}.todo-item .todo-item-content[data-v-c80da55e]{text-align:left;width:87%}.todo-item .todo-item-edit[data-v-c80da55e]{width:87%}.todo-item .todo-item-close[data-v-c80da55e]{color:red}.ant-input-group-wrapper[data-v-c80da55e],.ant-list[data-v-c80da55e]{border-radius:4px;-webkit-transition:-webkit-box-shadow .28s cubic-bezier(.4,0,.2,1);transition:box-shadow .28s cubic-bezier(.4,0,.2,1);transition:box-shadow .28s cubic-bezier(.4,0,.2,1),-webkit-box-shadow .28s cubic-bezier(.4,0,.2,1);transition:-webkit-box-shadow .28s cubic-bezier(.4,0,.2,1);transition:-o-box-shadow .28s cubic-bezier(.4,0,.2,1);box-shadow:0 3px 4px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);-webkit-box-shadow:0 3px 4px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);-moz-box-shadow:0 3px 4px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);-o-box-shadow:0 3px 4px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12)}.ant-card-body[data-v-c80da55e]{padding:12px!important}.ant-radio-button-wrapper.ant-radio-button-wrapper-checked[data-v-c80da55e]:not(.ant-radio-button-wrapper-disabled){background:#42b983!important;border-color:#42b983!important;-webkit-box-shadow:-1px 0 0 0 #42b983!important;box-shadow:-1px 0 0 0 #42b983!important}.ant-radio-button-wrapper.ant-radio-button-wrapper-checked[data-v-c80da55e]:not(.ant-radio-button-wrapper-disabled):before{background-color:#42b983!important}.ant-radio-button-wrapper.ant-radio-button-wrapper-checked[data-v-c80da55e]:not(.ant-radio-button-wrapper-disabled)::-moz-selection{background:#42b983!important}.ant-radio-button-wrapper.ant-radio-button-wrapper-checked[data-v-c80da55e]:not(.ant-radio-button-wrapper-disabled)::selection{background:#42b983!important}.ant-radio-button-wrapper[data-v-c80da55e]:not(.ant-radio-button-wrapper-checked):hover{color:#42b983!important}.ant-btn-primary[data-v-c80da55e]{background:#42b983!important;border-color:#42b983!important}
+/*!
+ * # Variables
+ *//*!
+ * # Mixins
+ *//*!
+ * # Variables
+ */#app{font-family:Avenir,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-align:center;color:#2c3e50;margin-top:60px}

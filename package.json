@@ -1,0 +1,30 @@
+{
+  "name": "todo-desktop",
+  "productName": "TODO!",
+  "version": "0.1.0",
+  "description": "TODO! desktop client",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development electron .",
+    "start": "cross-env NODE_ENV=production electron .",
+    "dist": "electron-builder -mw --linux deb",
+    "dist:macos": "electron-builder -m",
+    "dist:linux": "electron-builder --linux deb",
+    "build:darwin": "electron-packager . TODO! --platform=darwin --arch=x64 --asar --prune=true --icon=build/icon.icns --out=release-builds",
+    "build:win32": "electron-packager . TODO! --platform=win32 --arch=x64 --asar --prune=true --icon=build/icon.ico --out=release-builds",
+    "build:linux": "electron-packager . TODO! --platform=linux --arch=x64 --asar --prune=true --icon=build/icon.png --out=release-builds"
+  },
+  "author": "David Lu",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "electron-config": "^2.0.0",
+    "electron-packager": "^14.2.1",
+    "electron-search-text": "^0.3.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "electron": "^8.2.4",
+    "electron-builder": "^22.6.0"
+  }
+}
