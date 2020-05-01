@@ -1,7 +1,7 @@
 {
   "name": "todo-desktop",
   "productName": "TODO!",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "TODO! desktop client",
   "main": "main.js",
   "scripts": {
@@ -11,9 +11,9 @@
     "dist": "electron-builder -mw --linux deb",
     "dist:macos": "electron-builder -m",
     "dist:linux": "electron-builder --linux deb",
-    "build:darwin": "electron-packager . TODO! --overwrite --platform=darwin --arch=x64 --asar --prune=true --icon=build/icon.icns --ignore=node_modules/electron-* --out=TODO-desktop-release",
-    "build:win32": "electron-packager . TODO! --overwrite --platform=win32 --arch=x64 --asar --prune=true --icon=build/icon.ico --out==TODO-desktop-release --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"TODO!\"",
-    "build:linux": "electron-packager . TODO --overwrite --platform=linux --arch=x64 --asar --icon=build/icon.png --out=TODO-desktop-release"
+    "build:darwin": "electron-packager . TODO --overwrite --platform=darwin --arch=x64 --asar --prune=true --icon=build/icon.icns --ignore=node_modules/electron-* --out=../TODO-desktop-release",
+    "build:win32": "electron-packager . TODO --overwrite --platform=win32 --arch=x64 --asar --prune=true --icon=build/icon.ico --out=../TODO-desktop-release --version-string.CompanyName=DavidLu --version-string.FileDescription=CE --version-string.ProductName=\"TODO!\"",
+    "build:linux": "electron-packager . TODO --overwrite --platform=linux --arch=x64 --asar --icon=build/icon.png --out=../TODO-desktop-release --executableName=todo-desktop"
   },
   "author": "David Lu",
   "license": "GPL-3.0",
