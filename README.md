@@ -10,26 +10,6 @@ This repository is my practice to implement a simple TODO-list with Vue/Vuex int
 
 ---
 
-## Descriptions
-
-### Execution
-
-(To be updated.)
-
-### Implementation
-
-(To be updated.)
-
-#### Prerequisite
-
-(To be updated.)
-
-#### Release on GitHub
-
-(To be updated.)
-
----
-
 ## Contributor
 
 > **NOTICE:** You can follow the contributing process [CONTRIBUTING.md](CONTRIBUTING.md) to join me. I am very welcome for any issue!
