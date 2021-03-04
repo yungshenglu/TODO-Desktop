@@ -9,7 +9,7 @@ I'd love to accept your patches and contributions to this project. There are jus
 1. Fork this repository and clone the repository you forked
    ```bash
    # Clone your fork of the repo into the current directory
-   $ git clone https://github.com/<YOUR_USERNAME>/TODO!-Desktop
+   $ git clone https://github.com/<YOUR_USERNAME>/TODO-Desktop
    # Navigate to the newly cloned directory
    $ cd Interview
    ```
@@ -23,7 +23,7 @@ I'd love to accept your patches and contributions to this project. There are jus
 3. Assign the original repository to a remote called `upstream` and update
    ```bash
    # Assign the original repo to a remote called "upstream"
-   $ git remote add upstream https://github.com/yungshenglu/TODO!-Desktop
+   $ git remote add upstream https://github.com/yungshenglu/TODO-Desktop
    # Update to remote repository
    $ git remote update
    ```
